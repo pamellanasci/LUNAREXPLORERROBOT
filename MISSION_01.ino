@@ -31,7 +31,7 @@ void setup() {
   }
   strip.show(); // Atualiza os LEDs com a cor definida
 
-  // Move o robô para frente por 4 segundos
+  // Move o robô para frente por 2 segundos
   frente();     // Liga os motores para frente
   delay(2000);  // Espera 2 segundos
   parar();      // Para os motores
